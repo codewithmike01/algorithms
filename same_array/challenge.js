@@ -7,6 +7,7 @@ function createFrequencyCounter(arr) {
 }
 
 function same(arr1, arr2) {
+  if (arr1.length < 1 || arr2.length < 1) return false;
   if (arr1.length != arr2.length) return false;
 
   let frequency_counter1 = createFrequencyCounter(arr1);
