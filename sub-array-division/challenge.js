@@ -1,4 +1,4 @@
-function birthday(arr) {
+function birthday(s, d, m) {
   let counter = 0;
   let sum = 0;
   const arrLength = s.length - 1;
@@ -15,7 +15,6 @@ function birthday(arr) {
 
     while (k < m) {
       if (s[k] === undefined) return counter;
-      console.log(s[j]);
       sum += s[j];
       k++;
       j++;
@@ -29,5 +28,6 @@ function birthday(arr) {
 }
 
 birthday([1, 1, 1, 1, 1, 1], 3, 2);
+// ==> 0
 
 module.exports = birthday;

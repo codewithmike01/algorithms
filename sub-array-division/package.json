@@ -1,0 +1,22 @@
+{
+  "name": "sub-array-division",
+  "version": "1.0.0",
+  "description": "test for sub array division",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginohmk/algorithms.git"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ginohmk/algorithms/issues"
+  },
+  "homepage": "https://github.com/Ginohmk/algorithms#readme",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
