@@ -1,0 +1,14 @@
+{
+  "name": "anagram",
+  "version": "1.0.0",
+  "description": "Find if two word are anagrams",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha run tests.js"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
