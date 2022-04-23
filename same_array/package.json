@@ -1,0 +1,11 @@
+{
+  "name": "same_array",
+  "version": "1.0.0",
+  "description": "Find same array",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha run tests.js"
+  },
+  "author": "Mike",
+  "license": "ISC"
+}
