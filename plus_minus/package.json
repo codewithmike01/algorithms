@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mocha": "^9.2.2"
+  },
+  "name": "plus_minus",
+  "version": "1.0.0",
+  "description": "Plu minus",
+  "main": "challenge.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "author": "mike",
+  "license": "ISC"
+}
