@@ -19,14 +19,14 @@ function plusMinus(arr) {
   let divisor = arr.length;
   arr.forEach((value) => {
     if (value == 0) zero_count += 1.0;
-    else if (value >= 1) positive_count += 1.0;
+    else if (value > 0) positive_count += 1.0;
     else negative_count += 1.0;
   });
 
   finalArr.push((positive_count / divisor).toFixed(6).toString());
   finalArr.push((negative_count / divisor).toFixed(6).toString());
   finalArr.push((zero_count / divisor).toFixed(6).toString());
-  console.log(finalArr);
+
   return finalArr;
 }
 
