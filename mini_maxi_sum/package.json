@@ -1,0 +1,14 @@
+{
+  "name": "mini_maxi_sum",
+  "version": "1.0.0",
+  "description": "Sum ",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Mike Kanu",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
