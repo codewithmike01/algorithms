@@ -1,0 +1,14 @@
+{
+  "name": "militery_time",
+  "version": "1.0.0",
+  "description": "Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Mike kanu",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
