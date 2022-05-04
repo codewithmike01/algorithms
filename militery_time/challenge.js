@@ -1,5 +1,6 @@
 function timeConversion(s) {
   // Write your code here
+  // Steps
   // get Hour
   // get minutes
   // get seconds
