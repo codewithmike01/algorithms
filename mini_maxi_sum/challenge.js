@@ -1,5 +1,6 @@
 function miniMaxSum(arr) {
   // Write your code here
+  // Steps
   // get min saved in min
   // get maxsaved in max
   // new varible sum_max and sum_min
