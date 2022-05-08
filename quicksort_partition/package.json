@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mocha": "^10.0.0"
+  },
+  "name": "quicksort_partition",
+  "description": "QuickSort Partition The first step of Quicksort is to partition an array into two parts.",
+  "version": "1.0.0",
+  "main": "challenge.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Mike",
+  "license": "ISC"
+}
